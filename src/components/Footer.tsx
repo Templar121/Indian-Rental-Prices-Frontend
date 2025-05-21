@@ -93,17 +93,17 @@ const Footer = () => {
               <p className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 text-blue-400" />
                 <span className="text-slate-300">
-                  123 Property Lane, Cyber City<br />
-                  New Delhi, 110001
+                  Asansol, West Bengal<br />
+                  India - 713301
                 </span>
               </p>
-              <p className="flex items-center">
+              {/* <p className="flex items-center">
                 <Phone size={18} className="mr-2 text-blue-400" />
                 <span className="text-slate-300">+91 98765 43210</span>
-              </p>
+              </p> */}
               <p className="flex items-center">
                 <Mail size={18} className="mr-2 text-blue-400" />
-                <span className="text-slate-300">info@indianprices.com</span>
+                <span className="text-slate-300">subhayanmukherjee78@gmail.com</span>
               </p>
             </div>
           </div>
@@ -113,7 +113,7 @@ const Footer = () => {
           <p className="text-slate-400 text-sm">
             © {new Date().getFullYear()} Indian Prices Prediction. Made with ❤️ by{' '}
             <a 
-              href="https://github.com/subhayanmukherjee" 
+              href="https://subhayanmukherjee.netlify.app/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-blue-400 hover:text-blue-300 transition-colors"

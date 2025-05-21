@@ -42,7 +42,7 @@ const Header = () => {
     { name: 'Mumbai', path: '/city/mumbai', icon: <MapPin size={18} /> },
     { name: 'Pune', path: '/city/pune', icon: <MapPin size={18} /> },
     { name: 'Kolkata', path: '/city/kolkata', icon: <MapPin size={18} /> },
-    { name: 'Know More', path: 'https://subhayanmukherjee.netlify.app/', icon: <Building2 size={18} /> },
+    { name: 'Know More about Me', path: 'https://subhayanmukherjee.netlify.app/', icon: <Building2 size={18} /> },
   ];
 
   return (
